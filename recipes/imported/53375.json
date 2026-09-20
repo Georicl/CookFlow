@@ -4,6 +4,7 @@
   "title": "荷兰豆炒虾仁",
   "original_title": "Shrimp With Snow Peas",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,64 +25,160 @@
   },
   "ingredients": [
     {
-      "text": "2 tsp Cornstarch",
-      "name": "Cornstarch",
-      "measure": "2 tsp"
+      "name": "玉米淀粉",
+      "measure": "2茶匙",
+      "text": "玉米淀粉 2茶匙",
+      "original_name": "Cornstarch",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Cornstarch",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tablespoon Dry sherry",
-      "name": "Dry sherry",
-      "measure": "1 tablespoon"
+      "name": "干雪利酒",
+      "measure": "1汤匙",
+      "text": "干雪利酒 1汤匙",
+      "original_name": "Dry sherry",
+      "original_measure": "1 tablespoon",
+      "original_text": "1 tablespoon Dry sherry",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Kosher Salt",
-      "name": "Kosher Salt",
-      "measure": "1/2 tsp"
+      "name": "粗盐",
+      "measure": "1/2茶匙",
+      "text": "粗盐 1/2茶匙",
+      "original_name": "Kosher Salt",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Kosher Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 lb Shrimp",
-      "name": "Shrimp",
-      "measure": "1 lb"
+      "name": "虾仁",
+      "measure": "1磅",
+      "text": "虾仁 1磅",
+      "original_name": "Shrimp",
+      "original_measure": "1 lb",
+      "original_text": "1 lb Shrimp",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tablespoons Peanut Oil",
-      "name": "Peanut Oil",
-      "measure": "2 tablespoons"
+      "name": "花生油",
+      "measure": "2汤匙",
+      "text": "花生油 2汤匙",
+      "original_name": "Peanut Oil",
+      "original_measure": "2 tablespoons",
+      "original_text": "2 tablespoons Peanut Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tablespoon Ground Ginger",
-      "name": "Ground Ginger",
-      "measure": "1 tablespoon"
+      "name": "姜粉",
+      "measure": "1汤匙",
+      "text": "姜粉 1汤匙",
+      "original_name": "Ground Ginger",
+      "original_measure": "1 tablespoon",
+      "original_text": "1 tablespoon Ground Ginger",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "3 cloves Chopped Garlic",
-      "name": "Garlic",
-      "measure": "3 cloves Chopped"
+      "name": "大蒜",
+      "measure": "3瓣（切碎）",
+      "text": "大蒜 3瓣（切碎）",
+      "original_name": "Garlic",
+      "original_measure": "3 cloves Chopped",
+      "original_text": "3 cloves Chopped Garlic",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 lb Snow Peas",
-      "name": "Snow Peas",
-      "measure": "1/2 lb"
+      "name": "荷兰豆",
+      "measure": "1/2磅",
+      "text": "荷兰豆 1/2磅",
+      "original_name": "Snow Peas",
+      "original_measure": "1/2 lb",
+      "original_text": "1/2 lb Snow Peas",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "2 tsp"
+      "name": "酱油",
+      "measure": "2茶匙",
+      "text": "酱油 2茶匙",
+      "original_name": "Soy Sauce",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 cup Chicken Stock",
-      "name": "Chicken Stock",
-      "measure": "1/4 cup"
+      "name": "鸡高汤",
+      "measure": "1/4杯",
+      "text": "鸡高汤 1/4杯",
+      "original_name": "Chicken Stock",
+      "original_measure": "1/4 cup",
+      "original_text": "1/4 cup Chicken Stock",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "4 Scallions",
-      "name": "Scallions",
-      "measure": "4"
+      "name": "小葱",
+      "measure": "4根",
+      "text": "小葱 4根",
+      "original_name": "Scallions",
+      "original_measure": "4",
+      "original_text": "4 Scallions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "2 tsp"
+      "name": "香油",
+      "measure": "2茶匙",
+      "text": "香油 2茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [

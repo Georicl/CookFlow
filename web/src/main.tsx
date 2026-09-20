@@ -42,7 +42,7 @@ type Recipe = {
   servings_note?: string;
   notes?: string[];
   source: { name: string; url?: string; attribution: string };
-  ingredients: { text: string }[];
+  ingredients: { text: string; name?: string }[];
   steps: Step[];
   has_profile: boolean;
   profile_outdated: boolean;
@@ -439,7 +439,7 @@ function App() {
                               {r.title}
                             </button>
                             <p className="original-title">
-                              {r.original_title || "本地菜谱模板"}
+                              {r.ingredients.slice(0, 3).map(i => i.name || i.text).join(" · ")}
                             </p>
                             <div className="card-bottom">
                               <span>
@@ -883,7 +883,7 @@ function RecipeModal({
             {recipe.source.name} · VERSION {recipe.version}
           </div>
           <h2>{recipe.title}</h2>
-          <p>{recipe.original_title}</p>
+          <p>{recipe.ingredients.length} 种食材 · {recipe.steps.length} 个步骤</p>
           <div className="modal-tabs">
             <button
               className={!editing ? "active" : ""}

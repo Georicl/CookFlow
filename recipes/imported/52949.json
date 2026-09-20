@@ -4,6 +4,7 @@
   "title": "糖醋猪肉",
   "original_title": "Sweet and Sour Pork",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,54 +25,134 @@
   },
   "ingredients": [
     {
-      "text": "200g Pork",
-      "name": "Pork",
-      "measure": "200g"
+      "name": "猪肉",
+      "measure": "200克",
+      "text": "猪肉 200克",
+      "original_name": "Pork",
+      "original_measure": "200g",
+      "original_text": "200g Pork",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 Egg",
-      "name": "Egg",
-      "measure": "1"
+      "name": "鸡蛋",
+      "measure": "1个",
+      "text": "鸡蛋 1个",
+      "original_name": "Egg",
+      "original_measure": "1",
+      "original_text": "1 Egg",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "Dash Water",
-      "name": "Water",
-      "measure": "Dash"
+      "name": "水",
+      "measure": "少许",
+      "text": "水 少许",
+      "original_name": "Water",
+      "original_measure": "Dash",
+      "original_text": "Dash Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Salt",
-      "name": "Salt",
-      "measure": "1/2 tsp"
+      "name": "盐",
+      "measure": "1/2茶匙",
+      "text": "盐 1/2茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Sugar",
-      "name": "Sugar",
-      "measure": "1 tsp"
+      "name": "白糖",
+      "measure": "1茶匙",
+      "text": "白糖 1茶匙",
+      "original_name": "Sugar",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Sugar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "10g Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "10g"
+      "name": "酱油",
+      "measure": "10克",
+      "text": "酱油 10克",
+      "original_name": "Soy Sauce",
+      "original_measure": "10g",
+      "original_text": "10g Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "10g Starch",
-      "name": "Starch",
-      "measure": "10g"
+      "name": "淀粉",
+      "measure": "10克",
+      "text": "淀粉 10克",
+      "original_name": "Starch",
+      "original_measure": "10g",
+      "original_text": "10g Starch",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "30g Tomato Puree",
-      "name": "Tomato Puree",
-      "measure": "30g"
+      "name": "番茄泥",
+      "measure": "30克",
+      "text": "番茄泥 30克",
+      "original_name": "Tomato Puree",
+      "original_measure": "30g",
+      "original_text": "30g Tomato Puree",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "10g Vinegar",
-      "name": "Vinegar",
-      "measure": "10g"
+      "name": "醋",
+      "measure": "10克",
+      "text": "醋 10克",
+      "original_name": "Vinegar",
+      "original_measure": "10g",
+      "original_text": "10g Vinegar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "Dash Coriander",
-      "name": "Coriander",
-      "measure": "Dash"
+      "name": "香菜",
+      "measure": "少许",
+      "text": "香菜 少许",
+      "original_name": "Coriander",
+      "original_measure": "Dash",
+      "original_text": "Dash Coriander",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

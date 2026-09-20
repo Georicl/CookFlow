@@ -4,6 +4,7 @@
   "title": "鸡肉炒饭",
   "original_title": "Chicken Fried Rice",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,74 +25,187 @@
   },
   "ingredients": [
     {
-      "text": "1 lb Chicken Thighs",
-      "name": "Chicken Thighs",
-      "measure": "1 lb"
+      "name": "鸡腿肉",
+      "measure": "1磅",
+      "text": "鸡腿肉 1磅",
+      "original_name": "Chicken Thighs",
+      "original_measure": "1 lb",
+      "original_text": "1 lb Chicken Thighs",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Salt",
-      "name": "Salt",
-      "measure": "1 tsp"
+      "name": "盐",
+      "measure": "1茶匙",
+      "text": "盐 1茶匙",
+      "original_name": "Salt",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "3  tablespoons Canola Oil",
-      "name": "Canola Oil",
-      "measure": "3  tablespoons"
+      "name": "菜籽油",
+      "measure": "3汤匙",
+      "text": "菜籽油 3汤匙",
+      "original_name": "Canola Oil",
+      "original_measure": "3  tablespoons",
+      "original_text": "3  tablespoons Canola Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "3 Large Egg",
-      "name": "Egg",
-      "measure": "3 Large"
+      "name": "鸡蛋",
+      "measure": "3个（大号）",
+      "text": "鸡蛋 3个（大号）",
+      "original_name": "Egg",
+      "original_measure": "3 Large",
+      "original_text": "3 Large Egg",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2/3 Cup Onion",
-      "name": "Onion",
-      "measure": "2/3 Cup"
+      "name": "洋葱",
+      "measure": "2/3杯",
+      "text": "洋葱 2/3杯",
+      "original_name": "Onion",
+      "original_measure": "2/3 Cup",
+      "original_text": "2/3 Cup Onion",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 cloves minced Garlic",
-      "name": "Garlic",
-      "measure": "2 cloves minced"
+      "name": "大蒜",
+      "measure": "2瓣（切末）",
+      "text": "大蒜 2瓣（切末）",
+      "original_name": "Garlic",
+      "original_measure": "2 cloves minced",
+      "original_text": "2 cloves minced Garlic",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Ground Ginger",
-      "name": "Ground Ginger",
-      "measure": "2 tsp"
+      "name": "姜末",
+      "measure": "2茶匙",
+      "text": "姜末 2茶匙",
+      "original_name": "Ground Ginger",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Ground Ginger",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1",
+        "note": "来源步骤写作 minced garlic and ginger，按做法译为姜末。"
+      }
     },
     {
-      "text": "1 large Carrots",
-      "name": "Carrots",
-      "measure": "1 large"
+      "name": "胡萝卜",
+      "measure": "1根（大号）",
+      "text": "胡萝卜 1根（大号）",
+      "original_name": "Carrots",
+      "original_measure": "1 large",
+      "original_text": "1 large Carrots",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2/3 Cup Peas",
-      "name": "Peas",
-      "measure": "2/3 Cup"
+      "name": "豌豆",
+      "measure": "2/3杯",
+      "text": "豌豆 2/3杯",
+      "original_name": "Peas",
+      "original_measure": "2/3 Cup",
+      "original_text": "2/3 Cup Peas",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "4 cups Jasmine Rice",
-      "name": "Jasmine Rice",
-      "measure": "4 cups"
+      "name": "茉莉香米",
+      "measure": "4杯",
+      "text": "茉莉香米 4杯",
+      "original_name": "Jasmine Rice",
+      "original_measure": "4 cups",
+      "original_text": "4 cups Jasmine Rice",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 sliced Scallions",
-      "name": "Scallions",
-      "measure": "2 sliced"
+      "name": "小葱",
+      "measure": "2根（切片）",
+      "text": "小葱 2根（切片）",
+      "original_name": "Scallions",
+      "original_measure": "2 sliced",
+      "original_text": "2 sliced Scallions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Chinese five spice powder",
-      "name": "Chinese five spice powder",
-      "measure": "1/2 tsp"
+      "name": "五香粉",
+      "measure": "1/2茶匙",
+      "text": "五香粉 1/2茶匙",
+      "original_name": "Chinese five spice powder",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Chinese five spice powder",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2.5 tbsp Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "2.5 tbsp"
+      "name": "酱油",
+      "measure": "2.5汤匙",
+      "text": "酱油 2.5汤匙",
+      "original_name": "Soy Sauce",
+      "original_measure": "2.5 tbsp",
+      "original_text": "2.5 tbsp Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "1 tsp"
+      "name": "香油",
+      "measure": "1茶匙",
+      "text": "香油 1茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [

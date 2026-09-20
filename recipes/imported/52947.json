@@ -4,6 +4,7 @@
   "title": "麻婆豆腐",
   "original_title": "Ma Po Tofu",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,89 +25,225 @@
   },
   "ingredients": [
     {
-      "text": "450g Tofu",
-      "name": "Tofu",
-      "measure": "450g"
+      "name": "豆腐",
+      "measure": "450克",
+      "text": "豆腐 450克",
+      "original_name": "Tofu",
+      "original_measure": "450g",
+      "original_text": "450g Tofu",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "100g Minced Beef",
-      "name": "Minced Beef",
-      "measure": "100g"
+      "name": "牛肉末",
+      "measure": "100克",
+      "text": "牛肉末 100克",
+      "original_name": "Minced Beef",
+      "original_measure": "100g",
+      "original_text": "100g Minced Beef",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tbs Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "1/2 tbs"
+      "name": "香油",
+      "measure": "1/2汤匙",
+      "text": "香油 1/2汤匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "1/2 tbs",
+      "original_text": "1/2 tbs Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 1/2 tsp Doubanjiang",
-      "name": "Doubanjiang",
-      "measure": "1 1/2 tsp"
+      "name": "豆瓣酱",
+      "measure": "1又1/2茶匙",
+      "text": "豆瓣酱 1又1/2茶匙",
+      "original_name": "Doubanjiang",
+      "original_measure": "1 1/2 tsp",
+      "original_text": "1 1/2 tsp Doubanjiang",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Fermented Black Beans",
-      "name": "Fermented Black Beans",
-      "measure": "1/2 tsp"
+      "name": "豆豉",
+      "measure": "1/2茶匙",
+      "text": "豆豉 1/2茶匙",
+      "original_name": "Fermented Black Beans",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Fermented Black Beans",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Pepper",
-      "name": "Pepper",
-      "measure": "1 tbs"
+      "name": "胡椒粉",
+      "measure": "1汤匙",
+      "text": "胡椒粉 1汤匙",
+      "original_name": "Pepper",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Salt",
-      "name": "Salt",
-      "measure": "1/2 tsp"
+      "name": "盐",
+      "measure": "1/2茶匙",
+      "text": "盐 1/2茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Sichuan pepper",
-      "name": "Sichuan pepper",
-      "measure": "1/2 tsp"
+      "name": "花椒",
+      "measure": "1/2茶匙",
+      "text": "花椒 1/2茶匙",
+      "original_name": "Sichuan pepper",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Sichuan pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "1 tbs"
+      "name": "酱油",
+      "measure": "1汤匙",
+      "text": "酱油 1汤匙",
+      "original_name": "Soy Sauce",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "400ml Water",
-      "name": "Water",
-      "measure": "400ml"
+      "name": "水",
+      "measure": "400毫升",
+      "text": "水 400毫升",
+      "original_name": "Water",
+      "original_measure": "400ml",
+      "original_text": "400ml Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Olive Oil",
-      "name": "Olive Oil",
-      "measure": "2 tbs"
+      "name": "橄榄油",
+      "measure": "2汤匙",
+      "text": "橄榄油 2汤匙",
+      "original_name": "Olive Oil",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Olive Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 chopped Scallions",
-      "name": "Scallions",
-      "measure": "2 chopped"
+      "name": "小葱",
+      "measure": "2根（切碎）",
+      "text": "小葱 2根（切碎）",
+      "original_name": "Scallions",
+      "original_measure": "2 chopped",
+      "original_text": "2 chopped Scallions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "4 Spring Onions",
-      "name": "Spring Onions",
-      "measure": "4"
+      "name": "小葱",
+      "measure": "4根",
+      "text": "小葱 4根",
+      "original_name": "Spring Onions",
+      "original_measure": "4",
+      "original_text": "4 Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 cloves chopped Garlic",
-      "name": "Garlic",
-      "measure": "2 cloves chopped"
+      "name": "大蒜",
+      "measure": "2瓣（切碎）",
+      "text": "大蒜 2瓣（切碎）",
+      "original_name": "Garlic",
+      "original_measure": "2 cloves chopped",
+      "original_text": "2 cloves chopped Garlic",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "4 sliced Ginger",
-      "name": "Ginger",
-      "measure": "4 sliced"
+      "name": "生姜",
+      "measure": "4片",
+      "text": "生姜 4片",
+      "original_name": "Ginger",
+      "original_measure": "4 sliced",
+      "original_text": "4 sliced Ginger",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 1/2 tbs Water",
-      "name": "Water",
-      "measure": "2 1/2 tbs"
+      "name": "水",
+      "measure": "2又1/2汤匙",
+      "text": "水 2又1/2汤匙",
+      "original_name": "Water",
+      "original_measure": "2 1/2 tbs",
+      "original_text": "2 1/2 tbs Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Cornstarch",
-      "name": "Cornstarch",
-      "measure": "1 tbs"
+      "name": "玉米淀粉",
+      "measure": "1汤匙",
+      "text": "玉米淀粉 1汤匙",
+      "original_name": "Cornstarch",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Cornstarch",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

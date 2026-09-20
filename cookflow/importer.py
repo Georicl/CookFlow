@@ -8,6 +8,7 @@ from pathlib import Path
 import httpx
 
 from .catalog import connect, ingest
+from .localization import localize_ingredient
 
 SEEDS = {
     '53372': '番茄炒蛋', '52947': '麻婆豆腐', '52945': '宫保鸡丁',
@@ -44,11 +45,11 @@ def normalize(meal, raw, retrieved_at):
         name = (meal.get(f'strIngredient{i}') or '').strip()
         measure = (meal.get(f'strMeasure{i}') or '').strip()
         if name:
-            ingredients.append({'text': f'{measure} {name}'.strip(), 'name': name, 'measure': measure})
+            ingredients.append(localize_ingredient(name, measure, meal_id))
     return {
         'schema_version': 1, 'id': f'themealdb/{meal_id}',
         'title': SEEDS.get(meal_id, meal['strMeal']), 'original_title': meal['strMeal'],
-        'language': 'en', 'servings': 2, 'servings_note': '源数据未提供份数；2 为待确认的界面初始值。',
+        'language': 'en', 'ingredient_language': 'zh-CN', 'servings': 2, 'servings_note': '源数据未提供份数；2 为待确认的界面初始值。',
         'status': 'draft', 'category': meal.get('strCategory'), 'area': meal.get('strArea'),
         'image_url': meal.get('strMealThumb'),
         'source': {'kind': 'api', 'name': 'TheMealDB',

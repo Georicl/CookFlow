@@ -4,6 +4,7 @@
   "title": "芝麻黄瓜沙拉",
   "original_title": "Sesame Cucumber Salad",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,39 +25,95 @@
   },
   "ingredients": [
     {
-      "text": "2 medium Cucumber",
-      "name": "Cucumber",
-      "measure": "2 medium"
+      "name": "黄瓜",
+      "measure": "2根（中等大小）",
+      "text": "黄瓜 2根（中等大小）",
+      "original_name": "Cucumber",
+      "original_measure": "2 medium",
+      "original_text": "2 medium Cucumber",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Salt",
-      "name": "Salt",
-      "measure": "1/2 tsp"
+      "name": "盐",
+      "measure": "1/2茶匙",
+      "text": "盐 1/2茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "2 tsp"
+      "name": "香油",
+      "measure": "2茶匙",
+      "text": "香油 2茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tablespoons Rice Vinegar",
-      "name": "Rice Vinegar",
-      "measure": "2 tablespoons"
+      "name": "米醋",
+      "measure": "2汤匙",
+      "text": "米醋 2汤匙",
+      "original_name": "Rice Vinegar",
+      "original_measure": "2 tablespoons",
+      "original_text": "2 tablespoons Rice Vinegar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "6 Basil Leaves",
-      "name": "Basil Leaves",
-      "measure": "6"
+      "name": "罗勒叶",
+      "measure": "6片",
+      "text": "罗勒叶 6片",
+      "original_name": "Basil Leaves",
+      "original_measure": "6",
+      "original_text": "6 Basil Leaves",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Red Chilli Flakes",
-      "name": "Red Chilli Flakes",
-      "measure": "1/2 tsp"
+      "name": "红辣椒碎",
+      "measure": "1/2茶匙",
+      "text": "红辣椒碎 1/2茶匙",
+      "original_name": "Red Chilli Flakes",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Red Chilli Flakes",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Sesame Seed",
-      "name": "Sesame Seed",
-      "measure": "2 tsp"
+      "name": "芝麻",
+      "measure": "2茶匙",
+      "text": "芝麻 2茶匙",
+      "original_name": "Sesame Seed",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Sesame Seed",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

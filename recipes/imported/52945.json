@@ -4,6 +4,7 @@
   "title": "宫保鸡丁",
   "original_title": "Kung Pao Chicken",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,69 +25,173 @@
   },
   "ingredients": [
     {
-      "text": "2 tbs Sake",
-      "name": "Sake",
-      "measure": "2 tbs"
+      "name": "清酒",
+      "measure": "2汤匙",
+      "text": "清酒 2汤匙",
+      "original_name": "Sake",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Sake",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "2 tbs"
+      "name": "酱油",
+      "measure": "2汤匙",
+      "text": "酱油 2汤匙",
+      "original_name": "Soy Sauce",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "2 tbs"
+      "name": "香油",
+      "measure": "2汤匙",
+      "text": "香油 2汤匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Corn Flour",
-      "name": "Corn Flour",
-      "measure": "2 tbs"
+      "name": "玉米淀粉",
+      "measure": "2汤匙",
+      "text": "玉米淀粉 2汤匙",
+      "original_name": "Corn Flour",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Corn Flour",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Water",
-      "name": "Water",
-      "measure": "2 tbs"
+      "name": "水",
+      "measure": "2汤匙",
+      "text": "水 2汤匙",
+      "original_name": "Water",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "500g Chicken",
-      "name": "Chicken",
-      "measure": "500g"
+      "name": "鸡肉",
+      "measure": "500克",
+      "text": "鸡肉 500克",
+      "original_name": "Chicken",
+      "original_measure": "500g",
+      "original_text": "500g Chicken",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Chilli Powder",
-      "name": "Chilli Powder",
-      "measure": "1 tbs"
+      "name": "辣椒粉",
+      "measure": "1汤匙",
+      "text": "辣椒粉 1汤匙",
+      "original_name": "Chilli Powder",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Chilli Powder",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Rice Vinegar",
-      "name": "Rice Vinegar",
-      "measure": "1 tsp"
+      "name": "米醋",
+      "measure": "1茶匙",
+      "text": "米醋 1茶匙",
+      "original_name": "Rice Vinegar",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Rice Vinegar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Brown Sugar",
-      "name": "Brown Sugar",
-      "measure": "1 tbs"
+      "name": "红糖",
+      "measure": "1汤匙",
+      "text": "红糖 1汤匙",
+      "original_name": "Brown Sugar",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Brown Sugar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "4 Chopped Spring Onions",
-      "name": "Spring Onions",
-      "measure": "4 Chopped"
+      "name": "小葱",
+      "measure": "4根（切碎）",
+      "text": "小葱 4根（切碎）",
+      "original_name": "Spring Onions",
+      "original_measure": "4 Chopped",
+      "original_text": "4 Chopped Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "6 cloves Garlic Clove",
-      "name": "Garlic Clove",
-      "measure": "6 cloves"
+      "name": "蒜瓣",
+      "measure": "6瓣",
+      "text": "蒜瓣 6瓣",
+      "original_name": "Garlic Clove",
+      "original_measure": "6 cloves",
+      "original_text": "6 cloves Garlic Clove",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "220g Water Chestnut",
-      "name": "Water Chestnut",
-      "measure": "220g"
+      "name": "荸荠",
+      "measure": "220克",
+      "text": "荸荠 220克",
+      "original_name": "Water Chestnut",
+      "original_measure": "220g",
+      "original_text": "220g Water Chestnut",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "100g Peanuts",
-      "name": "Peanuts",
-      "measure": "100g"
+      "name": "花生",
+      "measure": "100克",
+      "text": "花生 100克",
+      "original_name": "Peanuts",
+      "original_measure": "100g",
+      "original_text": "100g Peanuts",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

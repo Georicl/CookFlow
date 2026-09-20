@@ -4,6 +4,7 @@
   "title": "番茄炒蛋",
   "original_title": "Chinese Tomato Egg Stir Fry",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,54 +25,134 @@
   },
   "ingredients": [
     {
-      "text": "1 lb Plum Tomatoes",
-      "name": "Plum Tomatoes",
-      "measure": "1 lb"
+      "name": "长圆番茄",
+      "measure": "1磅",
+      "text": "长圆番茄 1磅",
+      "original_name": "Plum Tomatoes",
+      "original_measure": "1 lb",
+      "original_text": "1 lb Plum Tomatoes",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tablespoon Vegetable Oil",
-      "name": "Vegetable Oil",
-      "measure": "1 tablespoon"
+      "name": "植物油",
+      "measure": "1汤匙",
+      "text": "植物油 1汤匙",
+      "original_name": "Vegetable Oil",
+      "original_measure": "1 tablespoon",
+      "original_text": "1 tablespoon Vegetable Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "5 Large Eggs",
-      "name": "Eggs",
-      "measure": "5 Large"
+      "name": "鸡蛋",
+      "measure": "5个（大号）",
+      "text": "鸡蛋 5个（大号）",
+      "original_name": "Eggs",
+      "original_measure": "5 Large",
+      "original_text": "5 Large Eggs",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "1 tsp"
+      "name": "香油",
+      "measure": "1茶匙",
+      "text": "香油 1茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Chicken Bouillon Powder",
-      "name": "Chicken Bouillon Powder",
-      "measure": "2 tsp"
+      "name": "鸡汤粉",
+      "measure": "2茶匙",
+      "text": "鸡汤粉 2茶匙",
+      "original_name": "Chicken Bouillon Powder",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Chicken Bouillon Powder",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tsp Sugar",
-      "name": "Sugar",
-      "measure": "2 tsp"
+      "name": "白糖",
+      "measure": "2茶匙",
+      "text": "白糖 2茶匙",
+      "original_name": "Sugar",
+      "original_measure": "2 tsp",
+      "original_text": "2 tsp Sugar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Pepper",
-      "name": "Pepper",
-      "measure": "1/2 tsp"
+      "name": "胡椒粉",
+      "measure": "1/2茶匙",
+      "text": "胡椒粉 1/2茶匙",
+      "original_name": "Pepper",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 tsp Salt",
-      "name": "Salt",
-      "measure": "1/4 tsp"
+      "name": "盐",
+      "measure": "1/4茶匙",
+      "text": "盐 1/4茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/4 tsp",
+      "original_text": "1/4 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 Spring Onions",
-      "name": "Spring Onions",
-      "measure": "1"
+      "name": "小葱",
+      "measure": "1根",
+      "text": "小葱 1根",
+      "original_name": "Spring Onions",
+      "original_measure": "1",
+      "original_text": "1 Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 cups Jasmine Rice",
-      "name": "Jasmine Rice",
-      "measure": "2 cups"
+      "name": "茉莉香米",
+      "measure": "2杯",
+      "text": "茉莉香米 2杯",
+      "original_name": "Jasmine Rice",
+      "original_measure": "2 cups",
+      "original_text": "2 cups Jasmine Rice",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [

@@ -4,6 +4,7 @@
   "title": "鸡肉粥",
   "original_title": "Chicken Congee",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,49 +25,122 @@
   },
   "ingredients": [
     {
-      "text": "8 oz Chicken",
-      "name": "Chicken",
-      "measure": "8 oz"
+      "name": "鸡肉",
+      "measure": "8盎司",
+      "text": "鸡肉 8盎司",
+      "original_name": "Chicken",
+      "original_measure": "8 oz",
+      "original_text": "8 oz Chicken",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "pinch Salt",
-      "name": "Salt",
-      "measure": "pinch"
+      "name": "盐",
+      "measure": "一小撮",
+      "text": "盐 一小撮",
+      "original_name": "Salt",
+      "original_measure": "pinch",
+      "original_text": "pinch Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "pinch Pepper",
-      "name": "Pepper",
-      "measure": "pinch"
+      "name": "胡椒粉",
+      "measure": "一小撮",
+      "text": "胡椒粉 一小撮",
+      "original_name": "Pepper",
+      "original_measure": "pinch",
+      "original_text": "pinch Pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Ginger Cordial",
-      "name": "Ginger Cordial",
-      "measure": "1 tsp"
+      "name": "姜汁",
+      "measure": "1茶匙",
+      "text": "姜汁 1茶匙",
+      "original_name": "Ginger Cordial",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Ginger Cordial",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1",
+        "note": "来源步骤明确写作 ginger juice，按做法校正食材标签。"
+      }
     },
     {
-      "text": "1 tsp Ginger",
-      "name": "Ginger",
-      "measure": "1 tsp"
+      "name": "生姜",
+      "measure": "1茶匙",
+      "text": "生姜 1茶匙",
+      "original_name": "Ginger",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Ginger",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Spring Onions",
-      "name": "Spring Onions",
-      "measure": "1 tbs"
+      "name": "小葱",
+      "measure": "1汤匙",
+      "text": "小葱 1汤匙",
+      "original_name": "Spring Onions",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 cup Rice",
-      "name": "Rice",
-      "measure": "1/2 cup"
+      "name": "大米",
+      "measure": "1/2杯",
+      "text": "大米 1/2杯",
+      "original_name": "Rice",
+      "original_measure": "1/2 cup",
+      "original_text": "1/2 cup Rice",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "8 cups Water",
-      "name": "Water",
-      "measure": "8 cups"
+      "name": "水",
+      "measure": "8杯",
+      "text": "水 8杯",
+      "original_name": "Water",
+      "original_measure": "8 cups",
+      "original_text": "8 cups Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 oz Coriander",
-      "name": "Coriander",
-      "measure": "2 oz"
+      "name": "香菜",
+      "measure": "2盎司",
+      "text": "香菜 2盎司",
+      "original_name": "Coriander",
+      "original_measure": "2 oz",
+      "original_text": "2 oz Coriander",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

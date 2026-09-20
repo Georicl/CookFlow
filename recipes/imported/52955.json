@@ -4,6 +4,7 @@
   "title": "蛋花汤",
   "original_title": "Egg Drop Soup",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,54 +25,134 @@
   },
   "ingredients": [
     {
-      "text": "3 cups Chicken Stock",
-      "name": "Chicken Stock",
-      "measure": "3 cups"
+      "name": "鸡高汤",
+      "measure": "3杯",
+      "text": "鸡高汤 3杯",
+      "original_name": "Chicken Stock",
+      "original_measure": "3 cups",
+      "original_text": "3 cups Chicken Stock",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 tsp Salt",
-      "name": "Salt",
-      "measure": "1/4 tsp"
+      "name": "盐",
+      "measure": "1/4茶匙",
+      "text": "盐 1/4茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/4 tsp",
+      "original_text": "1/4 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 tsp Sugar",
-      "name": "Sugar",
-      "measure": "1/4 tsp"
+      "name": "白糖",
+      "measure": "1/4茶匙",
+      "text": "白糖 1/4茶匙",
+      "original_name": "Sugar",
+      "original_measure": "1/4 tsp",
+      "original_text": "1/4 tsp Sugar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "pinch Pepper",
-      "name": "Pepper",
-      "measure": "pinch"
+      "name": "胡椒粉",
+      "measure": "一小撮",
+      "text": "胡椒粉 一小撮",
+      "original_name": "Pepper",
+      "original_measure": "pinch",
+      "original_text": "pinch Pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "1 tsp"
+      "name": "香油",
+      "measure": "1茶匙",
+      "text": "香油 1茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/3 cup Peas",
-      "name": "Peas",
-      "measure": "1/3 cup"
+      "name": "豌豆",
+      "measure": "1/3杯",
+      "text": "豌豆 1/3杯",
+      "original_name": "Peas",
+      "original_measure": "1/3 cup",
+      "original_text": "1/3 cup Peas",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/3 cup Mushrooms",
-      "name": "Mushrooms",
-      "measure": "1/3 cup"
+      "name": "蘑菇",
+      "measure": "1/3杯",
+      "text": "蘑菇 1/3杯",
+      "original_name": "Mushrooms",
+      "original_measure": "1/3 cup",
+      "original_text": "1/3 cup Mushrooms",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Cornstarch",
-      "name": "Cornstarch",
-      "measure": "1 tbs"
+      "name": "玉米淀粉",
+      "measure": "1汤匙",
+      "text": "玉米淀粉 1汤匙",
+      "original_name": "Cornstarch",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Cornstarch",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Water",
-      "name": "Water",
-      "measure": "2 tbs"
+      "name": "水",
+      "measure": "2汤匙",
+      "text": "水 2汤匙",
+      "original_name": "Water",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 cup Spring Onions",
-      "name": "Spring Onions",
-      "measure": "1/4 cup"
+      "name": "小葱",
+      "measure": "1/4杯",
+      "text": "小葱 1/4杯",
+      "original_name": "Spring Onions",
+      "original_measure": "1/4 cup",
+      "original_text": "1/4 cup Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],

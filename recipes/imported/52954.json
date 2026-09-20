@@ -4,6 +4,7 @@
   "title": "酸辣汤",
   "original_title": "Hot and Sour Soup",
   "language": "en",
+  "ingredient_language": "zh-CN",
   "servings": 2,
   "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
   "status": "draft",
@@ -24,79 +25,199 @@
   },
   "ingredients": [
     {
-      "text": "1/3 cup Mushrooms",
-      "name": "Mushrooms",
-      "measure": "1/3 cup"
+      "name": "蘑菇",
+      "measure": "1/3杯",
+      "text": "蘑菇 1/3杯",
+      "original_name": "Mushrooms",
+      "original_measure": "1/3 cup",
+      "original_text": "1/3 cup Mushrooms",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/3 cup Wood Ear Mushrooms",
-      "name": "Wood Ear Mushrooms",
-      "measure": "1/3 cup"
+      "name": "木耳",
+      "measure": "1/3杯",
+      "text": "木耳 1/3杯",
+      "original_name": "Wood Ear Mushrooms",
+      "original_measure": "1/3 cup",
+      "original_text": "1/3 cup Wood Ear Mushrooms",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2/3 Cup Tofu",
-      "name": "Tofu",
-      "measure": "2/3 Cup"
+      "name": "豆腐",
+      "measure": "2/3杯",
+      "text": "豆腐 2/3杯",
+      "original_name": "Tofu",
+      "original_measure": "2/3 Cup",
+      "original_text": "2/3 Cup Tofu",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 cup Pork",
-      "name": "Pork",
-      "measure": "1/2 cup"
+      "name": "猪肉",
+      "measure": "1/2杯",
+      "text": "猪肉 1/2杯",
+      "original_name": "Pork",
+      "original_measure": "1/2 cup",
+      "original_text": "1/2 cup Pork",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2-1/2 cups Chicken Stock",
-      "name": "Chicken Stock",
-      "measure": "2-1/2 cups"
+      "name": "鸡高汤",
+      "measure": "2又1/2杯",
+      "text": "鸡高汤 2又1/2杯",
+      "original_name": "Chicken Stock",
+      "original_measure": "2-1/2 cups",
+      "original_text": "2-1/2 cups Chicken Stock",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Salt",
-      "name": "Salt",
-      "measure": "1/2 tsp"
+      "name": "盐",
+      "measure": "1/2茶匙",
+      "text": "盐 1/2茶匙",
+      "original_name": "Salt",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Salt",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 tsp Sugar",
-      "name": "Sugar",
-      "measure": "1/4 tsp"
+      "name": "白糖",
+      "measure": "1/4茶匙",
+      "text": "白糖 1/4茶匙",
+      "original_name": "Sugar",
+      "original_measure": "1/4 tsp",
+      "original_text": "1/4 tsp Sugar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Sesame Seed Oil",
-      "name": "Sesame Seed Oil",
-      "measure": "1 tsp"
+      "name": "香油",
+      "measure": "1茶匙",
+      "text": "香油 1茶匙",
+      "original_name": "Sesame Seed Oil",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Sesame Seed Oil",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 tsp Pepper",
-      "name": "Pepper",
-      "measure": "1/4 tsp"
+      "name": "胡椒粉",
+      "measure": "1/4茶匙",
+      "text": "胡椒粉 1/4茶匙",
+      "original_name": "Pepper",
+      "original_measure": "1/4 tsp",
+      "original_text": "1/4 tsp Pepper",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/2 tsp Hotsauce",
-      "name": "Hotsauce",
-      "measure": "1/2 tsp"
+      "name": "辣椒酱",
+      "measure": "1/2茶匙",
+      "text": "辣椒酱 1/2茶匙",
+      "original_name": "Hotsauce",
+      "original_measure": "1/2 tsp",
+      "original_text": "1/2 tsp Hotsauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1-½ cups Vinegar",
-      "name": "Vinegar",
-      "measure": "1-½ cups"
+      "name": "醋",
+      "measure": "1又1/2杯",
+      "text": "醋 1又1/2杯",
+      "original_name": "Vinegar",
+      "original_measure": "1-½ cups",
+      "original_text": "1-½ cups Vinegar",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tsp Soy Sauce",
-      "name": "Soy Sauce",
-      "measure": "1 tsp"
+      "name": "酱油",
+      "measure": "1茶匙",
+      "text": "酱油 1茶匙",
+      "original_name": "Soy Sauce",
+      "original_measure": "1 tsp",
+      "original_text": "1 tsp Soy Sauce",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1 tbs Cornstarch",
-      "name": "Cornstarch",
-      "measure": "1 tbs"
+      "name": "玉米淀粉",
+      "measure": "1汤匙",
+      "text": "玉米淀粉 1汤匙",
+      "original_name": "Cornstarch",
+      "original_measure": "1 tbs",
+      "original_text": "1 tbs Cornstarch",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "2 tbs Water",
-      "name": "Water",
-      "measure": "2 tbs"
+      "name": "水",
+      "measure": "2汤匙",
+      "text": "水 2汤匙",
+      "original_name": "Water",
+      "original_measure": "2 tbs",
+      "original_text": "2 tbs Water",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     },
     {
-      "text": "1/4 cup Spring Onions",
-      "name": "Spring Onions",
-      "measure": "1/4 cup"
+      "name": "小葱",
+      "measure": "1/4杯",
+      "text": "小葱 1/4杯",
+      "original_name": "Spring Onions",
+      "original_measure": "1/4 cup",
+      "original_text": "1/4 cup Spring Onions",
+      "language": "zh-CN",
+      "provenance": {
+        "type": "translation",
+        "method": "reviewed-zh-CN-v1"
+      }
     }
   ],
   "notes": [],
