@@ -70,7 +70,7 @@ uv run cookflow verify releases/my-release
 
 发布目录必须不存在，包含一致性备份 `catalog.sqlite` 和 `manifest.json`。校验覆盖文件摘要、SQLite 完整性、内容哈希、版本指针和食谱格式。摘要检测传输损坏，不提供身份认证。发布不包含用户数据。
 
-服务可通过 `COOKFLOW_USERS` 指定用户库；食谱库使用 `uv run cookflow --db <path> serve`。本地服务默认只监听 `127.0.0.1:8000`。服务器使用独立 systemd 服务、Nginx 子路径和访问密码，详见 [部署说明](deploy/README.md)。当前是私有单厨房模式。
+服务可通过 `COOKFLOW_USERS` 指定用户库；食谱库使用 `uv run cookflow --db <path> serve`。本地服务默认只监听 `127.0.0.1:8000`。服务器使用独立 systemd 服务、Nginx 子路径，详见 [部署说明](deploy/README.md)。网站无需注册、登录或访问密码；当前版本使用共享的厨房记录。
 
 ## 调度模型
 
