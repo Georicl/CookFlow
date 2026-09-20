@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/52949",
+  "title": "糖醋猪肉",
+  "original_title": "Sweet and Sour Pork",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Pork",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/1529442316.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/52949",
+    "upstream_url": "https://www.chinahighlights.com/travelguide/chinese-food/cooking/sweet-sour-pork.htm",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=52949",
+    "retrieved_at": "2026-09-20T17:24:17.939425+00:00",
+    "raw_sha256": "2a370cb5949a5e609009e8931ed555f465d93b2e15fc08178c1cb9c831ebe14f"
+  },
+  "ingredients": [
+    {
+      "text": "200g Pork",
+      "name": "Pork",
+      "measure": "200g"
+    },
+    {
+      "text": "1 Egg",
+      "name": "Egg",
+      "measure": "1"
+    },
+    {
+      "text": "Dash Water",
+      "name": "Water",
+      "measure": "Dash"
+    },
+    {
+      "text": "1/2 tsp Salt",
+      "name": "Salt",
+      "measure": "1/2 tsp"
+    },
+    {
+      "text": "1 tsp Sugar",
+      "name": "Sugar",
+      "measure": "1 tsp"
+    },
+    {
+      "text": "10g Soy Sauce",
+      "name": "Soy Sauce",
+      "measure": "10g"
+    },
+    {
+      "text": "10g Starch",
+      "name": "Starch",
+      "measure": "10g"
+    },
+    {
+      "text": "30g Tomato Puree",
+      "name": "Tomato Puree",
+      "measure": "30g"
+    },
+    {
+      "text": "10g Vinegar",
+      "name": "Vinegar",
+      "measure": "10g"
+    },
+    {
+      "text": "Dash Coriander",
+      "name": "Coriander",
+      "measure": "Dash"
+    }
+  ],
+  "notes": [],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "Preparation\n1. Crack the egg into a bowl. Separate the egg white and yolk.",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "2. Slice the pork tenderloin into strips.",
+      "depends_on": [
+        "s1"
+      ]
+    },
+    {
+      "id": "s3",
+      "instruction": "3. Prepare the marinade using a pinch of salt, one teaspoon of starch, two teaspoons of light soy sauce, and an egg white.",
+      "depends_on": [
+        "s2"
+      ]
+    },
+    {
+      "id": "s4",
+      "instruction": "4. Marinade the pork strips for about 20 minutes.",
+      "depends_on": [
+        "s3"
+      ]
+    },
+    {
+      "id": "s5",
+      "instruction": "5. Put the remaining starch in a bowl. Add some water and vinegar to make a starchy sauce.",
+      "depends_on": [
+        "s4"
+      ]
+    },
+    {
+      "id": "s6",
+      "instruction": "Cooking Instructions\n1. Pour the cooking oil into a wok and heat to 190°C (375°F). Add the marinated pork strips and fry them until they turn brown. Remove the cooked pork from the wok and place on a plate.",
+      "depends_on": [
+        "s5"
+      ]
+    },
+    {
+      "id": "s7",
+      "instruction": "2. Leave some oil in the wok. Put the tomato sauce and white sugar into the wok, and heat until the oil and sauce are fully combined.",
+      "depends_on": [
+        "s6"
+      ]
+    },
+    {
+      "id": "s8",
+      "instruction": "3. Add some water to the wok and thoroughly heat the sweet and sour sauce before adding the pork strips to it.",
+      "depends_on": [
+        "s7"
+      ]
+    },
+    {
+      "id": "s9",
+      "instruction": "4. Pour in the starchy sauce. Stir-fry all the ingredients until the pork and sauce are thoroughly mixed together.",
+      "depends_on": [
+        "s8"
+      ]
+    },
+    {
+      "id": "s10",
+      "instruction": "5. Serve on a plate and add some coriander for decoration.",
+      "depends_on": [
+        "s9"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

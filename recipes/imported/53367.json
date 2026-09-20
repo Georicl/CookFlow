@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/53367",
+  "title": "鸡肉炒饭",
+  "original_title": "Chicken Fried Rice",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Chicken",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/wuyd2h1765655837.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/53367",
+    "upstream_url": "https://www.simplyrecipes.com/recipes/chicken_fried_rice/",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=53367",
+    "retrieved_at": "2026-09-20T17:13:02.721423+00:00",
+    "raw_sha256": "ecac17d4dd286273b99c6660c7d47b02ad41c192a829547adfb1c8cdcf55e61a"
+  },
+  "ingredients": [
+    {
+      "text": "1 lb Chicken Thighs",
+      "name": "Chicken Thighs",
+      "measure": "1 lb"
+    },
+    {
+      "text": "1 tsp Salt",
+      "name": "Salt",
+      "measure": "1 tsp"
+    },
+    {
+      "text": "3  tablespoons Canola Oil",
+      "name": "Canola Oil",
+      "measure": "3  tablespoons"
+    },
+    {
+      "text": "3 Large Egg",
+      "name": "Egg",
+      "measure": "3 Large"
+    },
+    {
+      "text": "2/3 Cup Onion",
+      "name": "Onion",
+      "measure": "2/3 Cup"
+    },
+    {
+      "text": "2 cloves minced Garlic",
+      "name": "Garlic",
+      "measure": "2 cloves minced"
+    },
+    {
+      "text": "2 tsp Ground Ginger",
+      "name": "Ground Ginger",
+      "measure": "2 tsp"
+    },
+    {
+      "text": "1 large Carrots",
+      "name": "Carrots",
+      "measure": "1 large"
+    },
+    {
+      "text": "2/3 Cup Peas",
+      "name": "Peas",
+      "measure": "2/3 Cup"
+    },
+    {
+      "text": "4 cups Jasmine Rice",
+      "name": "Jasmine Rice",
+      "measure": "4 cups"
+    },
+    {
+      "text": "2 sliced Scallions",
+      "name": "Scallions",
+      "measure": "2 sliced"
+    },
+    {
+      "text": "1/2 tsp Chinese five spice powder",
+      "name": "Chinese five spice powder",
+      "measure": "1/2 tsp"
+    },
+    {
+      "text": "2.5 tbsp Soy Sauce",
+      "name": "Soy Sauce",
+      "measure": "2.5 tbsp"
+    },
+    {
+      "text": "1 tsp Sesame Seed Oil",
+      "name": "Sesame Seed Oil",
+      "measure": "1 tsp"
+    }
+  ],
+  "notes": [
+    "Fried rice is best made with leftover rice that's at least a day old. Otherwise it becomes gummy in the skillet.",
+    "If you don’t have any leftover rice from the night before, cook a batch of rice and spread it on a large baking sheet or several large plates. Let the rice dry out for about 1 to 2 hours before using it for fried rice.",
+    "Rice sticks to the pan very easily, so make sure to use a wok or pan that doesn’t have a sticky surface. I usually cook stir-fries in my seasoned carbon steel wok, but cast iron or nonstick pans work well, too. You might need to add a little more oil if things aren’t releasing easily."
+  ],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "Prepare the chicken:\nChop the chicken into small 1/4-inch to 1/2-inch cubes. Sprinkle 1/2 teaspoon of salt over the chicken and mix to combine. Set the chicken aside for about 10 minutes (I usually use this time to chop all the vegetables).",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "Scramble the egg:\nHeat a wok or large sauté pan over medium-high heat. Swirl in a tablespoon of oil and add the whisked eggs. Use a spatula to quickly scramble the eggs, breaking the curds into smaller pieces as they come together. Transfer the eggs to a plate.",
+      "depends_on": [
+        "s1"
+      ]
+    },
+    {
+      "id": "s3",
+      "instruction": "Cook the chicken:\nAdd another tablespoon of oil in the wok or pan. Add the chicken and cook for 4 to 5 minutes, stirring occasionally. Turn off the heat and transfer the cooked chicken to a plate.",
+      "depends_on": [
+        "s2"
+      ]
+    },
+    {
+      "id": "s4",
+      "instruction": "Using your spatula, scrape off any chicken bits that are still stuck to the wok so they don't burn during the next step. You can also use paper towels to wipe down your wok or pan.",
+      "depends_on": [
+        "s3"
+      ]
+    },
+    {
+      "id": "s5",
+      "instruction": "Cook the vegetables:\nSwirl 1 tablespoon of oil into the wok over medium-high heat. Add the diced onions and cook them for 1 minute, until they start to soften. Mix in the minced garlic and ginger and cook until fragrant, about 30 seconds. Add the diced carrots and cook for 2 minutes, stirring frequently. Add 1/2 teaspoon salt and the peas, and stir to incorporate.",
+      "depends_on": [
+        "s4"
+      ]
+    },
+    {
+      "id": "s6",
+      "instruction": "Cook the rice:\nAdd the rice to the wok or pan on top of the vegetables and stir to combine. Using the back of your spatula, smash any large chunks of rice to break them apart. Add the white and green parts of the sliced scallions (save the dark green parts) and five-spice powder. Stir to incorporate. If the rice starts to stick to the pan, stir in a little more oil.",
+      "depends_on": [
+        "s5"
+      ]
+    },
+    {
+      "id": "s7",
+      "instruction": "Drizzle the soy sauce and sesame oil over the rice and stir to incorporate. Stir in the cooked chicken, scrambled eggs, and the dark parts of the scallions. Stir briefly to bring it together, and cook for another 1 to 2 minutes.",
+      "depends_on": [
+        "s6"
+      ]
+    },
+    {
+      "id": "s8",
+      "instruction": "Serve:\nTaste, and add more soy sauce if necessary. Serve immediately.",
+      "depends_on": [
+        "s7"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

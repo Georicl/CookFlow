@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/53378",
+  "title": "芝麻黄瓜沙拉",
+  "original_title": "Sesame Cucumber Salad",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Side",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/93iok31766436070.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/53378",
+    "upstream_url": "https://www.simplyrecipes.com/recipes/sesame_cucumber_salad/",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=53378",
+    "retrieved_at": "2026-09-20T17:13:03.043533+00:00",
+    "raw_sha256": "1ced9cf388acfe88eac55c9b586198aeeecf096e901ac11fde224ca85013b4f7"
+  },
+  "ingredients": [
+    {
+      "text": "2 medium Cucumber",
+      "name": "Cucumber",
+      "measure": "2 medium"
+    },
+    {
+      "text": "1/2 tsp Salt",
+      "name": "Salt",
+      "measure": "1/2 tsp"
+    },
+    {
+      "text": "2 tsp Sesame Seed Oil",
+      "name": "Sesame Seed Oil",
+      "measure": "2 tsp"
+    },
+    {
+      "text": "2 tablespoons Rice Vinegar",
+      "name": "Rice Vinegar",
+      "measure": "2 tablespoons"
+    },
+    {
+      "text": "6 Basil Leaves",
+      "name": "Basil Leaves",
+      "measure": "6"
+    },
+    {
+      "text": "1/2 tsp Red Chilli Flakes",
+      "name": "Red Chilli Flakes",
+      "measure": "1/2 tsp"
+    },
+    {
+      "text": "2 tsp Sesame Seed",
+      "name": "Sesame Seed",
+      "measure": "2 tsp"
+    }
+  ],
+  "notes": [],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "Prep the cucumbers:\nPeel the cucumbers. Cut them into quarters, lengthwise. (If the seeds are bitter, scrape out the seeds and discard.) Cut the cucumbers again, crosswise, into 1/2-inch thick pieces.",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "Toss the salad:\nPlace cucumbers into a serving bowl. Sprinkle with salt. Toss with sesame oil, seasoned rice vinegar, basil (if using), and chili flakes. Sprinkle with toasted sesame seeds if using.",
+      "depends_on": [
+        "s1"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

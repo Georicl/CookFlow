@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/52945",
+  "title": "宫保鸡丁",
+  "original_title": "Kung Pao Chicken",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Chicken",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/1525872624.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/52945",
+    "upstream_url": "http://allrecipes.co.uk/recipe/1773/kung-pao-chicken.aspx",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=52945",
+    "retrieved_at": "2026-09-20T17:13:01.413632+00:00",
+    "raw_sha256": "ff5f6e57b131226c38d47735ab031b95fd6fb0490a4978a236e612a7f4ef8234"
+  },
+  "ingredients": [
+    {
+      "text": "2 tbs Sake",
+      "name": "Sake",
+      "measure": "2 tbs"
+    },
+    {
+      "text": "2 tbs Soy Sauce",
+      "name": "Soy Sauce",
+      "measure": "2 tbs"
+    },
+    {
+      "text": "2 tbs Sesame Seed Oil",
+      "name": "Sesame Seed Oil",
+      "measure": "2 tbs"
+    },
+    {
+      "text": "2 tbs Corn Flour",
+      "name": "Corn Flour",
+      "measure": "2 tbs"
+    },
+    {
+      "text": "2 tbs Water",
+      "name": "Water",
+      "measure": "2 tbs"
+    },
+    {
+      "text": "500g Chicken",
+      "name": "Chicken",
+      "measure": "500g"
+    },
+    {
+      "text": "1 tbs Chilli Powder",
+      "name": "Chilli Powder",
+      "measure": "1 tbs"
+    },
+    {
+      "text": "1 tsp Rice Vinegar",
+      "name": "Rice Vinegar",
+      "measure": "1 tsp"
+    },
+    {
+      "text": "1 tbs Brown Sugar",
+      "name": "Brown Sugar",
+      "measure": "1 tbs"
+    },
+    {
+      "text": "4 Chopped Spring Onions",
+      "name": "Spring Onions",
+      "measure": "4 Chopped"
+    },
+    {
+      "text": "6 cloves Garlic Clove",
+      "name": "Garlic Clove",
+      "measure": "6 cloves"
+    },
+    {
+      "text": "220g Water Chestnut",
+      "name": "Water Chestnut",
+      "measure": "220g"
+    },
+    {
+      "text": "100g Peanuts",
+      "name": "Peanuts",
+      "measure": "100g"
+    }
+  ],
+  "notes": [],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "Combine the sake or rice wine, soy sauce, sesame oil and cornflour dissolved in water. Divide mixture in half.",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "In a glass dish or bowl, combine half of the sake mixture with the chicken pieces and toss to coat. Cover dish and place in refrigerator for about 30 minutes.",
+      "depends_on": [
+        "s1"
+      ]
+    },
+    {
+      "id": "s3",
+      "instruction": "In a medium frying pan, combine remaining sake mixture, chillies, vinegar and sugar. Mix together and add spring onion, garlic, water chestnuts and peanuts. Heat sauce slowly over medium heat until aromatic.",
+      "depends_on": [
+        "s2"
+      ]
+    },
+    {
+      "id": "s4",
+      "instruction": "Meanwhile, remove chicken from marinade and sauté in a large frying pan until juices run clear. When sauce is aromatic, add sautéed chicken and let simmer together until sauce thickens.",
+      "depends_on": [
+        "s3"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

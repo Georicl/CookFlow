@@ -1,0 +1,12 @@
+__pycache__/
+*.egg-info/
+.venv/
+data/
+releases/
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+.pytest_cache/
+.env
+.env.*
+*.htpasswd

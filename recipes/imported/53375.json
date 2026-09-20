@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/53375",
+  "title": "荷兰豆炒虾仁",
+  "original_title": "Shrimp With Snow Peas",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Seafood",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/fpl3mv1766433431.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/53375",
+    "upstream_url": "https://www.simplyrecipes.com/recipes/shrimp_with_snow_peas/",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=53375",
+    "retrieved_at": "2026-09-20T17:13:03.366565+00:00",
+    "raw_sha256": "9a4a4be4d35b0311d33ae37f49bb302b887941f0021698ffd42fb9b5b3d5563c"
+  },
+  "ingredients": [
+    {
+      "text": "2 tsp Cornstarch",
+      "name": "Cornstarch",
+      "measure": "2 tsp"
+    },
+    {
+      "text": "1 tablespoon Dry sherry",
+      "name": "Dry sherry",
+      "measure": "1 tablespoon"
+    },
+    {
+      "text": "1/2 tsp Kosher Salt",
+      "name": "Kosher Salt",
+      "measure": "1/2 tsp"
+    },
+    {
+      "text": "1 lb Shrimp",
+      "name": "Shrimp",
+      "measure": "1 lb"
+    },
+    {
+      "text": "2 tablespoons Peanut Oil",
+      "name": "Peanut Oil",
+      "measure": "2 tablespoons"
+    },
+    {
+      "text": "1 tablespoon Ground Ginger",
+      "name": "Ground Ginger",
+      "measure": "1 tablespoon"
+    },
+    {
+      "text": "3 cloves Chopped Garlic",
+      "name": "Garlic",
+      "measure": "3 cloves Chopped"
+    },
+    {
+      "text": "1/2 lb Snow Peas",
+      "name": "Snow Peas",
+      "measure": "1/2 lb"
+    },
+    {
+      "text": "2 tsp Soy Sauce",
+      "name": "Soy Sauce",
+      "measure": "2 tsp"
+    },
+    {
+      "text": "1/4 cup Chicken Stock",
+      "name": "Chicken Stock",
+      "measure": "1/4 cup"
+    },
+    {
+      "text": "4 Scallions",
+      "name": "Scallions",
+      "measure": "4"
+    },
+    {
+      "text": "2 tsp Sesame Seed Oil",
+      "name": "Sesame Seed Oil",
+      "measure": "2 tsp"
+    }
+  ],
+  "notes": [
+    "You can also use sugar snap peas for this recipe. Save prep time by prepping the peas, ginger, and garlic while the shrimp is marinating."
+  ],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "Marinate the shrimp:\nMix all marinade ingredients in a large bowl, then add the shrimp. Toss to coat. Let sit for 15 to 20 minutes while you prep the peas, ginger, and garlic.",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "Stir-fry the ginger and garlic:\nHeat a wok or large sauté pan over high heat for 1 minute. Add the peanut oil and let it get hot, about 30 seconds. Add the ginger and garlic and toss to combine. Stir-fry for about 30 seconds.",
+      "depends_on": [
+        "s1"
+      ]
+    },
+    {
+      "id": "s3",
+      "instruction": "Add the shrimp, snow peas, soy sauce, stock:\nAdd the shrimp and all the marinade to the pan (scrape out all the marinade with a rubber spatula). Add the snow peas, soy sauce and chicken stock. Stir-fry until the shrimp turns pink, about 2 minutes.",
+      "depends_on": [
+        "s2"
+      ]
+    },
+    {
+      "id": "s4",
+      "instruction": "Add the scallions and finish with sesame oil:\nAdd the scallions and stir-fry 1 more minute. Turn off the heat and add the sesame oil. Toss to combine once more and serve with steamed rice.",
+      "depends_on": [
+        "s3"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

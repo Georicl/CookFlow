@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "themealdb/52956",
+  "title": "鸡肉粥",
+  "original_title": "Chicken Congee",
+  "language": "en",
+  "servings": 2,
+  "servings_note": "源数据未提供份数；2 为待确认的界面初始值。",
+  "status": "draft",
+  "category": "Chicken",
+  "area": "Chinese",
+  "image_url": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+  "source": {
+    "kind": "api",
+    "name": "TheMealDB",
+    "attribution": "Recipe and artwork: TheMealDB; Chinese display title: CookFlow",
+    "license": "TheMealDB Terms of Use",
+    "license_url": "https://www.themealdb.com/terms_of_use.php",
+    "url": "https://www.themealdb.com/meal/52956",
+    "upstream_url": "https://sueandgambo.com/pages/chicken-congee",
+    "api_url": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=52956",
+    "retrieved_at": "2026-09-20T17:13:02.394457+00:00",
+    "raw_sha256": "6dcd792689a32445a7ad3bb7f211451f017d56a9f0b4bc2b08bae3f058329ea2"
+  },
+  "ingredients": [
+    {
+      "text": "8 oz Chicken",
+      "name": "Chicken",
+      "measure": "8 oz"
+    },
+    {
+      "text": "pinch Salt",
+      "name": "Salt",
+      "measure": "pinch"
+    },
+    {
+      "text": "pinch Pepper",
+      "name": "Pepper",
+      "measure": "pinch"
+    },
+    {
+      "text": "1 tsp Ginger Cordial",
+      "name": "Ginger Cordial",
+      "measure": "1 tsp"
+    },
+    {
+      "text": "1 tsp Ginger",
+      "name": "Ginger",
+      "measure": "1 tsp"
+    },
+    {
+      "text": "1 tbs Spring Onions",
+      "name": "Spring Onions",
+      "measure": "1 tbs"
+    },
+    {
+      "text": "1/2 cup Rice",
+      "name": "Rice",
+      "measure": "1/2 cup"
+    },
+    {
+      "text": "8 cups Water",
+      "name": "Water",
+      "measure": "8 cups"
+    },
+    {
+      "text": "2 oz Coriander",
+      "name": "Coriander",
+      "measure": "2 oz"
+    }
+  ],
+  "notes": [],
+  "steps": [
+    {
+      "id": "s1",
+      "instruction": "STEP 1 - MARINATING THE CHICKEN\nIn a bowl, add chicken, salt, white pepper, ginger juice and then mix it together well.",
+      "depends_on": []
+    },
+    {
+      "id": "s2",
+      "instruction": "Set the chicken aside.",
+      "depends_on": [
+        "s1"
+      ]
+    },
+    {
+      "id": "s3",
+      "instruction": "STEP 2 - RINSE THE WHITE RICE\nRinse the rice in a metal bowl or pot a couple times and then drain the water.",
+      "depends_on": [
+        "s2"
+      ]
+    },
+    {
+      "id": "s4",
+      "instruction": "STEP 2 - BOILING THE WHITE RICE\nNext add 8 cups of water and then set the stove on high heat until it is boiling. Once rice porridge starts to boil, set the stove on low heat and then stir it once every 8-10 minutes for around 20-25 minutes.",
+      "depends_on": [
+        "s3"
+      ]
+    },
+    {
+      "id": "s5",
+      "instruction": "After 25 minutes, this is optional but you can add a little bit more water to make rice porridge to make it less thick or to your preference.",
+      "depends_on": [
+        "s4"
+      ]
+    },
+    {
+      "id": "s6",
+      "instruction": "Next add the marinated chicken to the rice porridge and leave the stove on low heat for another 10 minutes.",
+      "depends_on": [
+        "s5"
+      ]
+    },
+    {
+      "id": "s7",
+      "instruction": "After an additional 10 minutes add the green onions, sliced ginger, 1 pinch of salt, 1 pinch of white pepper and stir for 10 seconds.",
+      "depends_on": [
+        "s6"
+      ]
+    },
+    {
+      "id": "s8",
+      "instruction": "Serve the rice porridge in a bowl",
+      "depends_on": [
+        "s7"
+      ]
+    },
+    {
+      "id": "s9",
+      "instruction": "Optional: add Coriander on top of the rice porridge.",
+      "depends_on": [
+        "s8"
+      ]
+    }
+  ],
+  "resource_holds": []
+}

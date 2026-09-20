@@ -1,0 +1,35 @@
+name: Build and test
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.0'
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - run: npm --prefix web ci
+      - run: npm --prefix web run build -- --base /cookflow/
+      - name: Package release
+        run: |
+          printf '%s\n' "$GITHUB_SHA" > REVISION
+          tar --exclude='__pycache__' -czf cookflow-release.tar.gz cookflow web/dist recipes pyproject.toml uv.lock .python-version README.md deploy REVISION
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cookflow-release
+          path: cookflow-release.tar.gz
+          retention-days: 14

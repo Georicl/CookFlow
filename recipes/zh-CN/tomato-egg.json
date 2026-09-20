@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "zh-CN/tomato-egg",
+  "title": "番茄炒蛋",
+  "language": "zh-CN",
+  "servings": 2,
+  "status": "draft",
+  "source": {
+    "kind": "original",
+    "name": "CookFlow 开发示例",
+    "attribution": "CookFlow 示例数据",
+    "license": "UNSPECIFIED"
+  },
+  "ingredients": [
+    {
+      "text": "番茄 2 个"
+    },
+    {
+      "text": "鸡蛋 3 个"
+    },
+    {
+      "text": "食用油和盐适量"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep",
+      "instruction": "切番茄，打散鸡蛋。",
+      "duration_seconds": 300,
+      "depends_on": [],
+      "resources": {
+        "person": 1,
+        "board": 1
+      },
+      "mode": "active",
+      "provenance": {
+        "duration_seconds": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "depends_on": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "resources": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "mode": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        }
+      }
+    },
+    {
+      "id": "egg",
+      "instruction": "将鸡蛋炒至凝固后盛出。",
+      "duration_seconds": 120,
+      "depends_on": [
+        "prep"
+      ],
+      "resources": {
+        "person": 1,
+        "wok": 1,
+        "burner": 1
+      },
+      "mode": "active",
+      "provenance": {
+        "duration_seconds": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "depends_on": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "resources": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "mode": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        }
+      }
+    },
+    {
+      "id": "tomato",
+      "instruction": "用同一口锅翻炒番茄。",
+      "duration_seconds": 180,
+      "depends_on": [
+        "egg"
+      ],
+      "resources": {
+        "person": 1,
+        "wok": 1,
+        "burner": 1
+      },
+      "mode": "active",
+      "provenance": {
+        "duration_seconds": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "depends_on": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "resources": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "mode": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        }
+      }
+    },
+    {
+      "id": "finish",
+      "instruction": "加入鸡蛋合炒、调味并盛出。",
+      "duration_seconds": 60,
+      "depends_on": [
+        "tomato"
+      ],
+      "resources": {
+        "person": 1,
+        "wok": 1,
+        "burner": 1
+      },
+      "mode": "active",
+      "provenance": {
+        "duration_seconds": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "depends_on": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "resources": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        },
+        "mode": {
+          "type": "estimate",
+          "note": "用于开发的人工编排示例，未经实际烹饪计时。"
+        }
+      }
+    }
+  ],
+  "resource_holds": [
+    {
+      "resource": "wok",
+      "quantity": 1,
+      "from_step": "egg",
+      "through_step": "finish"
+    }
+  ]
+}

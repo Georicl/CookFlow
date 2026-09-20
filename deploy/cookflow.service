@@ -1,0 +1,24 @@
+[Unit]
+Description=CookFlow recipe catalog and kitchen planner
+After=network.target
+
+[Service]
+Type=simple
+User=cookflow
+Group=cookflow
+WorkingDirectory=/opt/cookflow/current
+Environment=COOKFLOW_CATALOG=/var/lib/cookflow/catalog.sqlite
+Environment=COOKFLOW_USERS=/var/lib/cookflow/user.sqlite
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/cookflow/current/.venv/bin/uvicorn cookflow.api:create_app --factory --host 127.0.0.1 --port 8100 --workers 1 --root-path /cookflow
+Restart=on-failure
+RestartSec=3
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/cookflow
+
+[Install]
+WantedBy=multi-user.target
